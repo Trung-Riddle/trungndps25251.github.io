@@ -1,0 +1,158 @@
+body{
+    padding: 0 100px;
+    position: relative;
+}
+.login_recently{
+    width: 30%;
+    height: 420px;
+}
+.text_content_page_login{
+    width: 100%;
+    /* margin-top: 50px; */
+}
+.text_content_page_login img{
+    width: 200px;
+    height: 70px;
+    object-fit: cover;
+    margin-left: -20px;
+}
+.text_content_page_login h2{
+    font-size: 28px;
+    color: #1c1e21;
+    font-weight: 400;
+}
+.text_content_page_login p{
+    color: #606770;
+    font-size: 15px;
+    padding: 0 0 12px;
+    margin: 0 0 12px;
+}
+.account_login .accounted,
+.account_login .new_account
+{
+    width: 160px;
+    height: 206px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgb(207, 207, 207);
+    position: relative;
+    margin: 0 20px 0 0;
+    transition: .4s;
+    cursor: pointer;
+}
+.account_login .accounted:hover,
+.account_login .new_account:hover{
+    box-shadow: 2px 2px 5px rgb(175, 175, 175);
+}
+.account_login .accounted .img_account,
+.account_login .new_account .img_account
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.account_login .new_account .img_account{
+    padding: 59px;
+    background-color: #f5f6f7;
+}
+.account_login .new_account .img_account img{
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+}
+.account_login .accounted .img_account img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.account_login .accounted .text_account
+{
+    position: absolute;
+    bottom: 0;
+    padding: 0 45px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.account_login .new_account .text_account{
+    position: absolute;
+    bottom: 0;
+    padding: 0 6px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.account_login .new_account .text_account p{
+    color: #1877f2;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px;
+}
+.account_login .accounted .text_account p{
+    color: #4b4f56;
+    padding: 12px;
+    font-size: 18px;
+}
+form{
+    width: 400px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px ;
+    background-color: white;
+    padding: 15px;
+    margin: 150px 100px;
+}
+input {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid rgba(179, 179, 179, 0.589);
+    margin: 8px 0;
+    font-size: 16px;
+}
+input:focus{
+    outline: 1px solid rgba(0, 132, 255, 0.856);
+    border: none;
+}
+
+a .btn_login{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid rgba(179, 179, 179, 0.589);
+    margin: 8px 0;
+    font-size: 20px;
+    background-color: #1877f2;
+    color: white;
+    cursor: pointer;
+}
+span a{
+    display: block;
+    text-align: center;
+    color: #1877f2;
+    padding: 10px 0 15px;
+    border-bottom: 1px solid rgba(212, 212, 212, 0.795);
+    cursor: pointer;
+}
+.btn_create_acc{
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+span a:hover{
+    text-decoration: underline;
+}
+.btn_aw{
+    margin: 30px auto;
+    width: 164px;
+}
